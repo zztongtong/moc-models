@@ -1,0 +1,81 @@
+{
+  "version": "Live2DViewerEX Config 1.0",
+  "model": "yuri.moc",
+  "textures": [
+    "yuri.2048/texture_00.png"
+  ],
+  "layout": {
+    "center_x": 0.0,
+    "center_y": -0.25,
+    "width": 2.78
+  },
+  "hit_areas": [
+    {
+      "name": "body",
+      "id": "D_REF.BODY"
+    },
+    {
+      "name": "head",
+      "id": "D_REF.HEAD"
+    }
+  ],
+  "motions": {
+    "tap_body": [
+      {
+        "file": "motions/tap_body/body_01.mtn",
+        "sound": "motions/tap_body/body_01.mp3"
+      },
+      {
+        "file": "motions/tap_body/body_02.mtn"
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "motions/tap_head/head_01.mtn",
+        "sound": "motions/tap_head/head_01.mp3"
+      },
+      {
+        "file": "motions/tap_head/head_02.mtn",
+        "sound": "motions/tap_head/head_02.mp3"
+      }
+    ],
+    "idle": [
+      {
+        "file": "motions/idle/idle_01.mtn"
+      },
+      {
+        "file": "motions/idle/idle_02.mtn"
+      },
+      {
+        "file": "motions/idle/idle_03.mtn"
+      },
+      {
+        "file": "motions/idle/idle_04.mtn"
+      },
+      {
+        "file": "motions/idle/idle_05.mtn"
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "name": "f00.exp.json",
+      "file": "expressions/f00.exp.json"
+    },
+    {
+      "name": "f01.exp.json",
+      "file": "expressions/f01.exp.json"
+    },
+    {
+      "name": "f02.exp.json",
+      "file": "expressions/f02.exp.json"
+    },
+    {
+      "name": "f03.exp.json",
+      "file": "expressions/f03.exp.json"
+    }
+  ],
+  "physics": "physics.json",
+  "lip_sync":"true",
+  "pose": "pose.json"
+}

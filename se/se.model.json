@@ -1,0 +1,36 @@
+{
+  "version": "Live2DViewerEX Config 1.0",
+  "model": "se.moc",
+  "textures": [
+    "se.1024/00000005.png",
+    "se.1024/00000006.png"
+  ],
+  "layout": {
+    "center_x": 0.0,
+    "center_y": 0.0,
+    "width": 2.0
+  },
+  "motions": {
+    "tap": [
+      {
+        "file": "motions/tap/00000000.mtn",
+        "sound": "motions/tap/00000000.mp3"
+      },
+      {
+        "file": "motions/tap/00000001.mtn",
+        "sound": "motions/tap/00000001.mp3"
+      }
+    ],
+    "idle": [
+      {
+        "file": "motions/idle/00000002.mtn"
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "name": "00000004.exp.json",
+      "file": "expressions/00000004.exp.json"
+    }
+  ]
+}
